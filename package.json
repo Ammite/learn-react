@@ -1,6 +1,7 @@
 {
   "name": "learn-react",
   "version": "0.1.0",
+  "homepage": "https://ammite.github.io/learn-react/build/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
