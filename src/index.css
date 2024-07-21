@@ -11,3 +11,70 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body {
+  background: #465362;
+  color: #F0FFCE;
+  font-size: large;
+}
+
+h1 {
+  text-align: center;
+}
+
+div#inputArea {
+  text-align: center;
+  margin: 10px;
+}
+
+div#inputArea input {
+  width: 300px;
+  height: 3em;
+  font-size: large;
+  background-color: #93A3B1;
+}
+
+div#inputArea button {
+  margin-left: 10px;
+  border: none;
+  color: black;;
+  width: 100px;
+  height: 3em;
+  background-color: #93A3B1;
+  font-size: large;
+}
+button.deleteButton {
+  display: inline-block;
+  /* margin-left: 10px; */
+  border: none;
+  color: #F0FFCE;
+  width: 100px;
+  height: 3em;
+  /* background-color: #011936; */
+  background-color: #A53F2B;
+  font-size: large;
+  float: right;
+}
+
+div#list {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+div.task {
+  display: inline-block;
+  width: 300px;
+  height: auto;
+  background-color: #93A3B1;
+  margin: 10px;
+  padding: 20px;
+  font-size: x-large;
+  text-align: left;
+}
+
+li {
+  display: inline-block;
+  float: left;
+}
